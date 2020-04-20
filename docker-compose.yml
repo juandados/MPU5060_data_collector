@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  web:
+    build: .
+    image: deep-learning-class 
+    network_mode: "host"
+    env_file: .env
+    volumes:
+      - .:/home/jovyan/work
+    working_dir: "/home/jovyan/work"

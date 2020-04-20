@@ -1,0 +1,14 @@
+scipy
+scikit-learn
+pillow
+h5py
+matplotlib
+keras
+ipython
+jupyter
+pandas
+seaborn
+pydot
+pytube3==9.5.4
+opencv-python
+RISE
